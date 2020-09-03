@@ -11,6 +11,10 @@
 
     <artifactId>common-sanm</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
 
-
+    <modules>
+        <module>quartz-task-sdk</module>
+        <module>redis-delay-queue-sdk</module>
+    </modules>
 </project>
